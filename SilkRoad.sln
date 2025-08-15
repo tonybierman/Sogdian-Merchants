@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilkRoad", "SilkRoad\SilkRoad.csproj", "{89CD505E-BBF2-41FD-850D-BF99B7F60590}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilkRoad.Core", "SilkRoad.Core\SilkRoad.Core.csproj", "{A9C76D89-DBBA-4736-901A-22233C8333DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "var", "var", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		var\NOTES.md = var\NOTES.md
+		var\silkroad_schema.sql = var\silkroad_schema.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89CD505E-BBF2-41FD-850D-BF99B7F60590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89CD505E-BBF2-41FD-850D-BF99B7F60590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89CD505E-BBF2-41FD-850D-BF99B7F60590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89CD505E-BBF2-41FD-850D-BF99B7F60590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9C76D89-DBBA-4736-901A-22233C8333DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C76D89-DBBA-4736-901A-22233C8333DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C76D89-DBBA-4736-901A-22233C8333DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C76D89-DBBA-4736-901A-22233C8333DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D81C0B8F-91F5-489C-A499-12F3A67E69B6}
+	EndGlobalSection
+EndGlobal

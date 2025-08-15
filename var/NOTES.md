@@ -1,0 +1,1 @@
+dotnet ef dbcontext scaffold "server=localhost;database=silkroad;uid=root;password=i0i968;" "Pomelo.EntityFrameworkCore.MySql" --project .\SilkRoad.Core\SilkRoad.Core.csproj --context GameDbContext -o Data --force --no-onconfiguring
