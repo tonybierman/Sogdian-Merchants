@@ -18,7 +18,6 @@
 
   <ItemGroup>
     <None Include="Services\CaravanProcessor.cs" />
-    <None Include="Domain\DomainModels.cs" />
     <None Include="Services\GameEngine.cs" />
     <None Include="Services\GameStateSerializer.cs" />
     <None Include="Services\MarketService.cs" />
